@@ -1,0 +1,41 @@
+# Rust build output
+/target/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+
+# Local editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.vs/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs, dumps, and local runtime data
+*.log
+*.dump
+*.trace
+*.sqlite
+*.sqlite3
+tmp/
+temp/
+coverage/
+
+# Generated local media and caches
+downloads/
+cache/
+screenshots/
