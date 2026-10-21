@@ -1,6 +1,6 @@
-# Rust Browser — From Scratch
+#gerpion Browser — From Scratch
 
-A learning-oriented browser engine written from scratch in Rust.
+A  browser engine written from scratch in Rust.
 
 ## Current milestone
 
